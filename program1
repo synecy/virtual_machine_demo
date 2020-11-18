@@ -1,0 +1,12 @@
+LITERAL 100   // Health 100
+LITERAL 100   // Ammo 100
+SPAWN_PLAYER
+LITERAL 70    // New health 70
+LITERAL 0     // Player ID #0
+SET_HEALTH
+LITERAL 0     // Player ID #0
+GET_AMMO
+LITERAL 2     // literal value 2
+DIVIDE
+LITERAL 0     // Player ID #0
+SET_AMMO      // Set ammo to 50 (100/2)
